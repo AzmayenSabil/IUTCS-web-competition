@@ -1,0 +1,17 @@
+.hidden-column {
+    display: none;
+}
+
+/* .input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .clear-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+   */

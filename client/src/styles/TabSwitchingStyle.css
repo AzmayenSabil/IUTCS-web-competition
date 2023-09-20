@@ -1,0 +1,55 @@
+.tab-container {
+  display: flex;
+}
+
+.switching_tab {
+  padding: 5px 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab_active {
+  /* padding: 20px 40px; */
+  transform: translateY(-5px);
+}
+
+.tab_text {
+  padding-top: 10px;
+  color: rgb(0, 176, 224);
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+/* card layouts nested inside tabs */
+.switching_tab_card_container {
+  margin-top: 20px;
+}
+
+.switching_tab_card_row {
+  display: flex;
+}
+
+.switching_tab_card {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+
+  margin-right: 10px;
+  margin: 2px;
+  border: 2px solid rgb(0, 176, 224);
+}
+
+@media only screen and (max-width: 920px) {
+  .switching_tab_card_row {
+    display: grid;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .switching_tab_card_row {
+    display: grid;
+  }
+}

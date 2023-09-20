@@ -1,0 +1,45 @@
+.dropdown-item.active,
+.dropdown-item.active:hover,
+.dropdown-item.active:focus {
+  background-color: rgb(0, 176, 240) !important;
+  cursor: pointer;
+}
+
+.dropdown.hover-effect:hover {
+  background-color: #e9ecef !important;
+}
+
+/* .navbar-links {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  margin-left: 500px;
+} */
+
+.nav-items:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* Add the underline transition */
+.nav-items::before {
+  content: ""; /* Empty content, acts as the underline */
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Adjust the height of the underline */
+  background-color: white; /* Change the color as needed */
+  bottom: -2px; /* Position the underline below the link */
+  left: 0;
+  transform-origin: center;
+  transform: scaleX(0); /* Initial underline width is zero */
+  transition: transform 0.3s;
+}
+
+.nav-items:hover::before {
+  transform: scaleX(1); /* Expand the underline on hover */
+}
+
+/* .active {
+  font-weight: bold;
+} */
