@@ -1,18 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import LandigPage from './pages/landingPage/LandigPage'
 
-function App() {
-  const [count, setCount] = useState(2)
-
-  const onClick = (c) => {
-    c = c + 1;
-    setCount(c)
-  }
-
+const App = () => {
   return (
     <>
-      <p>Hello world!!! {count}</p>
-      <button onClick={() => onClick(count)}></button>
+      <LandigPage/>
     </>
   )
 }

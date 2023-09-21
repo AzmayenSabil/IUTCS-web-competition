@@ -1,0 +1,28 @@
+.navbar{
+    height: 9vh;
+    display: flex;
+}
+.navImageBar{
+    width: 25vw;
+}
+.navImageBar img{
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+.navMenuBar{
+    height: 9vh;
+}
+.navMenuSubBar{
+    height: 9vh;
+}
+@media screen and (min-width: 992px) {
+    .navLeftBarButton{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 992px) {
+    .desktopMenu{
+        visibility: hidden;
+    }
+}
