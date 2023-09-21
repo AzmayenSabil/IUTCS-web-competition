@@ -13,9 +13,17 @@
     width:300vw;
     display:flex;   
 }
-.heromainSlideImage{
-    width:99.25vw;
-    height:91vh;
+@media screen and (min-width: 992px) {
+    .heromainSlideImage{
+        width:98.9vw;
+        height:91vh;
+    }
+}
+@media screen and (max-width: 991px) {
+    .heromainSlideImage{
+        width:100vw;
+        height:91vh;
+    }
 }
 
 .heromainSliderTop{
@@ -89,7 +97,7 @@
     border: 0.2vh solid black;   
 }
 .heromainButtonBar button:nth-child(2):hover {
-    background-color: black;
+    background-color: rgb(220,220,220);
 }
 @media screen and (min-width: 992px) {
     .heromainSlideButtonBar{

@@ -36,10 +36,10 @@ const Navbar = () => {
   return (
     <>
         <div className='navbar'>
-            <div className="w-2/3 lg:w-1/4 navImageBar">
+            <div className="w-2/3 lg:w-1/3 navImageBar">
                 <img src="https://scontent.fdac1-1.fna.fbcdn.net/v/t39.30808-6/244505981_4561260667245848_4745833153649242370_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeE2A-FwjZISQjN_5ls4q2g4meWa1fk0Ux6Z5ZrV-TRTHjLK4vufB-yO457qvFKBoLzUTVnwzRCXDK53hexr3tIj&_nc_ohc=bO-QzNevw9QAX8Rsm9b&_nc_zt=23&_nc_ht=scontent.fdac1-1.fna&cb_e2o_trans=q&oh=00_AfDkqtlV2uEK6him1d_-j95NogY0Yp4BhHkHdIIFkZoccw&oe=6510EEE3" alt='logo' />
             </div>
-            <div className="w-1/3 lg:w-3/4">
+            <div className="w-1/3 lg:w-2/3">
                 <AppBar position="static" className="navMenuBar" elevation={0}>
                     <Toolbar className='bg-white text-black my-auto navMenuSubBar' >
                         <div className='desktopMenu'>
