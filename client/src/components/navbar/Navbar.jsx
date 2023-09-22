@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
             <div className="w-1/3 lg:w-2/3">
                 <AppBar position="static" className="navMenuBar" elevation={0}>
-                    <Toolbar className='bg-white text-black my-auto navMenuSubBar' >
+                    <Toolbar className='navMenuSubBar' >
                         <div className='desktopMenu'>
                           <Button color="inherit" onClick={handleClick}>
                               Home
