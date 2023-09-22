@@ -4,16 +4,8 @@
         display: flex;
         color:white;
     }
-}
-@media screen and (max-width: 991px) {
-    .history{
-        /* height: 150vh; */
-        color:white;
-    }
-}
-@media screen and (min-width: 992px) {
     .writingsBar{
-        padding: 10vh 5vw;
+        padding: 11vh 5vw;
         background-color: black;
         font-size: 2vh;
     }
@@ -26,6 +18,7 @@
     .writingsHead h2{
         font-size: 1.3vw;
         position: relative;
+        padding-bottom: 1.5vh;
     }
     .writingsHead h2:after{
         content: "";
@@ -34,13 +27,17 @@
         left: 0;
         height: 0.2vh;
         background-color: blue;
-        width: 55%;
+        width: 38%;
     }
     .writingsPara{
         width: 73%;
     }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+    .history{
+        /* height: 150vh; */
+        color:white;
+    }
     .writingsBar{
         padding: 5vh 4vw;
         background-color: black;
@@ -49,6 +46,7 @@
     .writingsHead h2{
         font-size:5vw;
         position: relative;
+        padding-bottom: 2vh;
     }
     .writingsHead h2:after{
         content: "";
