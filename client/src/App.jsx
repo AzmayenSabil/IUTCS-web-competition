@@ -1,20 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import InterCompetition from "./components/teamRegistration/interCompetition/interCompetiton";
 
 function App() {
-  const [count, setCount] = useState(2)
-
-  const onClick = (c) => {
-    c = c + 1;
-    setCount(c)
-  }
-
   return (
-    <>
-      <p>Hello world!!! {count}</p>
-      <button onClick={() => onClick(count)}></button>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/interCompetiton" element={<InterCompetition />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
